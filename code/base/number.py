@@ -2,6 +2,10 @@
 # -*- coding: UTF-8 -*-
 import math
 import cmath
+import random
+import datetime
+
+
 print dir(math)
 print dir(cmath)
 
@@ -128,9 +132,54 @@ print 'end test sqrt'
 随机数函数
 """
 
+# choice() 返回一个列表，元组或字符串的随机项
+print 'test choice'
+print "random.choice([1,2,3,4,5,6])",random.choice([1,2,3,4,5,6])
+print "random.choice([1,2,3,4,5,6])",random.choice([1,2,3,4,5,6])
+print "random.choice([1,2,3,4,5,6])",random.choice([1,2,3,4,5,6])
+print "random.choice('A string')",random.choice('A string')
+print "random.choice('A string')",random.choice('A string')
+print "random.choice('A string')",random.choice('A string')
+print 'end test choice'
 
+# randrange 返回递增基数集合中的一个随机数，基数缺省值为1
+# randrange(start, stop, step) start <= ret < stop step 递增基数
+print 'test randrange'
+print 'random.randrange(1,3,1)', random.randrange(1,3,1)
+print 'random.randrange(100,1000,2)', random.randrange(100,1000,2)
+print 'random.randrange(100,1000,3)', random.randrange(100,1000,3)
+print 'end test randrange'
 
+# random 随机生成一个实数 0 <= ret < 1
+print 'test random'
+print 'random', random.random()
+print 'random', random.random()
+print 'end test random'
 
+# seed 改变随机数生成器的种子，可以在调用其他随机模块函数之前调用此函数
+print 'test seed'
+random.seed(10)
+print 'random, while seed = 10 ', random.random()
+random.seed(20)
+print 'random, while seed = 20 ', random.random()
+random.seed(10)
+print 'random, while seed = 10 ', random.random()
+print 'end test seed'
+
+# shuffle 将列表的所有元素随机排序, 洗牌算法
+print 'test shuffle'
+list = [1,2,3,4,5]
+print 'before shuffle ', list
+random.seed(datetime.datetime.now())
+random.shuffle(list)
+print 'after shuffle ', list
+print 'end test shuffle'
+
+# uniform(x,y) 将随机生成一个实数，在[x,y]范围内
+print 'test uniform'
+print 'random.uniform(5,10)', random.uniform(5,10)
+print 'random.uniform(5,10)', random.uniform(5,10)
+print 'end test uniform'
 
 
 
