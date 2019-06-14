@@ -60,8 +60,32 @@ print list1
 list1 = ['a','b','c','d']
 print list1.index('d')
 
+# insert
+list1.insert(3,'x')
+print list1
 
+# pop
+print list1.pop(), list1
 
+# remove
+list1 = ['a','b'] * 3
+print list1
+list1.remove('a')
+print list1
+
+# reverse
+list1 = [1,2,3,4,5]
+print list1
+list1.reverse()
+print list1
+
+# sort
+list1 = [123,'Google','Runoob','Taobao','Facebook']
+print list1
+list1.sort()
+print list1
+list1.sort(reverse=True)
+print list1
 
 
 
