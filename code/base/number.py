@@ -181,6 +181,10 @@ print 'random.uniform(5,10)', random.uniform(5,10)
 print 'random.uniform(5,10)', random.uniform(5,10)
 print 'end test uniform'
 
+"""
+三角函数
+"""
+
 
 
 
