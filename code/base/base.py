@@ -9,7 +9,7 @@ d = a + \
     c
 # 不换行输出
 print a,
-print b, 
+print b,
 print c,
 print d
 # 字符串
@@ -19,7 +19,7 @@ s2 = "this is a string"
 s3 = """
 this
 is
-a 
+a
 string
 """
 print s1
