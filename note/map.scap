@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="1D753616-6457-4E24-AB4F-417D4488632F">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="20.0,405.921051" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>python</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+            <PointsToNoteIDs>1-2</PointsToNoteIDs>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="181.304565,449.136658" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>base</String>
+            <ConnectedNoteIDs>0, 3, 54, 65</ConnectedNoteIDs>
+            <PointsToNoteIDs>3, 54, 65</PointsToNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="792.090454,155.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>字典</String>
+            <ConnectedNoteIDs>1, 5-8</ConnectedNoteIDs>
+            <PointsToNoteIDs>5-8</PointsToNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="1087.090454,69.0" Width="240.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1. 创建{‘key’:’value’}组合
+dict = {‘Name’: ‘Zara’, ‘Age’:7,’Class’: ‘First’}</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="1003.090454,149.0" Width="154.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>2. 获取字典中某个元素的值
+val = dic[key]</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="1011.090454,199.0" Width="154.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>3. 修改字典中某个元素的值
+dict[key] = val</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="970.090454,263.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>常用的方法</String>
+            <ConnectedNoteIDs>3, 9-12, 19</ConnectedNoteIDs>
+            <PointsToNoteIDs>9-12, 19</PointsToNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="1415.090454,189.0" Width="31.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>cmp</String>
+            <ConnectedNoteIDs>8, 14, 18</ConnectedNoteIDs>
+            <PointsToNoteIDs>14, 18</PointsToNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="1426.090454,227.0" Width="25.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>len</String>
+            <ConnectedNoteIDs>8, 15</ConnectedNoteIDs>
+            <PointsToNoteIDs>15</PointsToNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="1427.090454,265.0" Width="22.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>str</String>
+            <ConnectedNoteIDs>8, 16</ConnectedNoteIDs>
+            <PointsToNoteIDs>16</PointsToNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="1421.090454,303.0" Width="31.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>type</String>
+            <ConnectedNoteIDs>8, 17</ConnectedNoteIDs>
+            <PointsToNoteIDs>17</PointsToNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="1558.090454,111.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>对比两个字典的大小</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="1564.090454,219.0" Width="180.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>获取字典中key-value对儿的数量</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="1567.090454,257.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>将字典转换为字符串</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="1566.090454,301.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>获取字典类型</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="1565.090454,162.0" Width="116.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>如何判断字典的大小</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="1101.090454,416.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>内置方法</String>
+            <ConnectedNoteIDs>8, 20-31</ConnectedNoteIDs>
+            <PointsToNoteIDs>20-31</PointsToNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="1242.090454,357.0" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>clear</String>
+            <ConnectedNoteIDs>19, 32</ConnectedNoteIDs>
+            <PointsToNoteIDs>32</PointsToNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="1245.090454,403.0" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>copy</String>
+            <ConnectedNoteIDs>19, 33-34</ConnectedNoteIDs>
+            <PointsToNoteIDs>33-34</PointsToNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="1402.194214,486.800659" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>fromkeys</String>
+            <ConnectedNoteIDs>19, 41</ConnectedNoteIDs>
+            <PointsToNoteIDs>41</PointsToNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="1434.883301,547.152039" Width="25.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>get</String>
+            <ConnectedNoteIDs>19, 42</ConnectedNoteIDs>
+            <PointsToNoteIDs>42</PointsToNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="1405.813599,588.66748" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>has_key</String>
+            <ConnectedNoteIDs>19, 43</ConnectedNoteIDs>
+            <PointsToNoteIDs>43</PointsToNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="1368.55603,628.365723" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>items</String>
+            <ConnectedNoteIDs>19, 44</ConnectedNoteIDs>
+            <PointsToNoteIDs>44</PointsToNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="1339.954834,687.713745" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>keys</String>
+            <ConnectedNoteIDs>19, 45</ConnectedNoteIDs>
+            <PointsToNoteIDs>45</PointsToNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1278.386597,751.169434" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>setdefault</String>
+            <ConnectedNoteIDs>19, 46</ConnectedNoteIDs>
+            <PointsToNoteIDs>46</PointsToNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="1267.990234,853.497375" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>update</String>
+            <ConnectedNoteIDs>19, 47-48</ConnectedNoteIDs>
+            <PointsToNoteIDs>47-48</PointsToNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="1310.601929,1069.983154" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>values</String>
+            <ConnectedNoteIDs>19, 49</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="1250.920166,1135.187012" Width="29.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>pop</String>
+            <ConnectedNoteIDs>19, 50-51</ConnectedNoteIDs>
+            <PointsToNoteIDs>50-51</PointsToNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="1181.018555,1239.250977" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>popitem</String>
+            <ConnectedNoteIDs>19, 52-53</ConnectedNoteIDs>
+            <PointsToNoteIDs>52-53</PointsToNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="1418.090454,352.0" Width="173.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>清除一个字典，清除后字典为{}</String>
+            <ConnectedNoteIDs>20</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="1420.090454,387.0" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>浅拷贝一个字典</String>
+            <ConnectedNoteIDs>21</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="1420.090454,427.0" Width="277.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>python 直接赋值，浅拷贝，深拷贝解析</String>
+            <ConnectedNoteIDs>21, 35-37</ConnectedNoteIDs>
+            <PointsToNoteIDs>35-37</PointsToNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="2010.090454,393.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>直接赋值</String>
+            <ConnectedNoteIDs>34, 38</ConnectedNoteIDs>
+            <PointsToNoteIDs>38</PointsToNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="2017.090454,508.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>浅拷贝</String>
+            <ConnectedNoteIDs>34, 39</ConnectedNoteIDs>
+            <PointsToNoteIDs>39</PointsToNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="2031.090454,618.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>深拷贝</String>
+            <ConnectedNoteIDs>34, 40</ConnectedNoteIDs>
+            <PointsToNoteIDs>40</PointsToNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="2102.090576,330.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>两个变量指向的是同一块内存，互相为别名，比如:一个人的名字和曾用名，都是指的这个人，名字虽然不同但是，人仍然是这个人</String>
+            <ConnectedNoteIDs>35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="2122.090576,470.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>拷贝完的对象是独立的，但是，子对象还是指向的同一对象。
+比如:
+玩网络游戏的时候，我们不同的电脑和手机登陆，电脑和手机是不同的，但是，我们可能登陆的是相同的服务器，最后指向的是相同的域名/ip/服务器</String>
+            <ConnectedNoteIDs>36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="2105.090576,661.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>a和b完全拷贝了父对象及其子对象，两者是完全独立的。
+还是玩游戏:
+我们从stream上购买单机游戏，安装到自己的电脑上，它们都是同一个游戏的拷贝版本，在不同的电脑上如何处理它们是完全独立的</String>
+            <ConnectedNoteIDs>37</ConnectedNoteIDs>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="1528.761108,511.422943" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>用于创建一个新的字典，以序列seq总元素做key,value为字典所有键值对应的初始值</String>
+            <ConnectedNoteIDs>22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="1640.283203,578.558838" Width="99.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>获取指定key的值</String>
+            <ConnectedNoteIDs>23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="1604.758911,638.088257" Width="99.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>是否有某个key值</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="1579.801392,680.909973" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>以列表的形式返回可遍历的(key,value)元组</String>
+            <ConnectedNoteIDs>25</ConnectedNoteIDs>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="1427.090454,729.0" Width="183.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>以列表的形式返回字典的所有key</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="1387.940308,780.118347" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>设置指定key的默认值，如果，指定key已经有值，则不设置，如果没有则添加key-defaultvalue</String>
+            <ConnectedNoteIDs>27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="1381.098999,883.566467" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>把一个字典的key-value更新到另一个字典中</String>
+            <ConnectedNoteIDs>28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="1369.38501,975.561523" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>存在相同的key,则用参数中的字典中的值替换，不存在则添加</String>
+            <ConnectedNoteIDs>28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="1409.090454,1074.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>以列表的形式，返回字典中所有的值</String>
+            <ConnectedNoteIDs>29</ConnectedNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="1425.901611,1134.300781" Width="159.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>删除字典给定key及对应的值</String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="1427.090454,1194.0" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>跟del作用相同</String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="1292.124268,1266.535767" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>随机返回并删除字典中的一堆key-value</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="1298.090454,1336.0" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>随机，删除，返回</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="508.926147,417.897736" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>日期和时间</String>
+            <ConnectedNoteIDs>1, 55, 57, 59, 61, 63</ConnectedNoteIDs>
+            <PointsToNoteIDs>55, 57, 59, 61, 63</PointsToNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="626.0,315.0" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>获取当前时间戳</String>
+            <ConnectedNoteIDs>54, 56</ConnectedNoteIDs>
+            <PointsToNoteIDs>56</PointsToNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="777.534546,259.62204" Width="115.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>import time;
+ticks = time.time()</String>
+            <ConnectedNoteIDs>55</ConnectedNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="609.0,371.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>获取当前时间</String>
+            <ConnectedNoteIDs>54, 58</ConnectedNoteIDs>
+            <PointsToNoteIDs>58</PointsToNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="738.245056,382.746887" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>import time;
+localtime = time.localtime(time.time())</String>
+            <ConnectedNoteIDs>57</ConnectedNoteIDs>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="609.401672,416.241272" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>获取格式化时间</String>
+            <ConnectedNoteIDs>54, 60</ConnectedNoteIDs>
+            <PointsToNoteIDs>60</PointsToNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="746.140808,496.274048" Width="348.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>import time;
+localtime = time.asctime(time.localtime(time.time)))</String>
+            <ConnectedNoteIDs>59</ConnectedNoteIDs>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="618.0,555.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>格式化日期</String>
+            <ConnectedNoteIDs>54, 62</ConnectedNoteIDs>
+            <PointsToNoteIDs>62</PointsToNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="720.152405,591.966003" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+</String>
+            <ConnectedNoteIDs>61</ConnectedNoteIDs>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="568.31012,648.388367" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>获取某月日历</String>
+            <ConnectedNoteIDs>54, 64</ConnectedNoteIDs>
+            <PointsToNoteIDs>64</PointsToNoteIDs>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="719.0,671.0" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>import calendar
+cal = calendar.month(2019,6)
+</String>
+            <ConnectedNoteIDs>63</ConnectedNoteIDs>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="404.0,912.0" Width="78.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>funciton 函数</String>
+            <ConnectedNoteIDs>1, 66-67, 71</ConnectedNoteIDs>
+            <PointsToNoteIDs>66-67, 71</PointsToNoteIDs>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="578.0,816.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>如何定义函数</String>
+            <ConnectedNoteIDs>65, 69</ConnectedNoteIDs>
+            <PointsToNoteIDs>69</PointsToNoteIDs>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="587.0,869.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>如何调用函数</String>
+            <ConnectedNoteIDs>65, 70</ConnectedNoteIDs>
+            <PointsToNoteIDs>70</PointsToNoteIDs>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="734.0,806.0" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>def function_name():
+     xxxxxx</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="754.0,870.0" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>function_name()</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="546.0,962.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>参数传递</String>
+            <ConnectedNoteIDs>65, 72-73</ConnectedNoteIDs>
+            <PointsToNoteIDs>72-73</PointsToNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="674.0,945.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>可变类型</String>
+            <ConnectedNoteIDs>71, 75</ConnectedNoteIDs>
+            <PointsToNoteIDs>75</PointsToNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="683.0,981.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>不可变类型</String>
+            <ConnectedNoteIDs>71, 76</ConnectedNoteIDs>
+            <PointsToNoteIDs>76</PointsToNoteIDs>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="1002.0,899.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CPP</String>
+            <ConnectedNoteIDs>75-76</ConnectedNoteIDs>
+            <PointsToNoteIDs>75-76</PointsToNoteIDs>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="902.0,896.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>值传递</String>
+            <ConnectedNoteIDs>72, 74</ConnectedNoteIDs>
+            <PointsToNoteIDs>72</PointsToNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="928.0,965.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>引用传递</String>
+            <ConnectedNoteIDs>73-74</ConnectedNoteIDs>
+            <PointsToNoteIDs>73</PointsToNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>3, 5-12, 14-33, 35-37, 42-43, 45, 49-51, 53-55, 57, 59, 61, 63-67, 69-76</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="C158AFCA-4FD2-4CD2-AB91-9A03AFC2E5AD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="A700794B-2EB8-477B-BF52-4AC1217A6D50" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="5C5B882D-AAE7-4DB9-8E4D-55911D3FE795" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="C3520C41-E25E-4E0C-BFF3-9BFF5B62F9F0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="DF03A311-98D5-436F-82D6-240BA3614935" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="579B045B-3933-4DAE-B2A7-A347AFB6A8E8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="A4123ABD-BC1E-476F-B60B-04F62E0D5BA3" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
