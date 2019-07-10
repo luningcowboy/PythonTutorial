@@ -1,0 +1,359 @@
+" Press <F1> for help
+
+-[F]code {
+ |-[F]data {
+ | |-[F]themes {
+ |   |-[F]clean {
+ |   | |-box.down.png
+ |   | |-box.normal.png
+ |   | |-button.down.png
+ |   | |-button.normal.png
+ |   | |-checkbox.off.normal.png
+ |   | |-checkbox.on.down.png
+ |   | |-checkbox.on.normal.png
+ |   | |-console.input.focus.png
+ |   | |-console.input.normal.png
+ |   | |-console.png
+ |   | |-desktop.png
+ |   | |-dialog.bar.png
+ |   | |-dialog.close.down.png
+ |   | |-dialog.close.normal.png
+ |   | |-dialog.png
+ |   | |-filebrowser.folder.png
+ |   | |-hslider.left.png
+ |   | |-hslider.right.png
+ |   | |-input.focus.png
+ |   | |-input.normal.png
+ |   | |-list.item.normal.png
+ |   | |-list.png
+ |   | |-menu.down.png
+ |   | |-menu.hover.png
+ |   | |-menu.normal.png
+ |   | |-menu.option.hover.png
+ |   | |-menu.option.normal.png
+ |   | |-radio.off.normal.png
+ |   | |-radio.on.down.png
+ |   | |-radio.on.normal.png
+ |   | |-select.arrow.down.png
+ |   | |-select.arrow.normal.png
+ |   | |-select.arrow.png
+ |   | |-select.option.hover.png
+ |   | |-select.option.normal.png
+ |   | |-select.options.png
+ |   | |-select.selected.normal.png
+ |   | |-slider.bar.normal.png
+ |   | |-slider.png
+ |   | |-style.ini
+ |   | |-tool.down.png
+ |   | |-tool.normal.png
+ |   | |-Vera.ttf
+ |   | |-vslider.down.png
+ |   | |-vslider.up.png }
+ |   |
+ |   |-[F]default {
+ |   | |-box.down.png
+ |   | |-box.hover.png
+ |   | |-box.normal.png
+ |   | |-box.xcf
+ |   | |-button.down.tga
+ |   | |-button.hover.tga
+ |   | |-button.normal.tga
+ |   | |-check.png
+ |   | |-checkbox.off.hover.tga
+ |   | |-checkbox.off.normal.tga
+ |   | |-checkbox.on.hover.tga
+ |   | |-checkbox.on.normal.tga
+ |   | |-console.input.focus.png
+ |   | |-console.input.normal.png
+ |   | |-console.png
+ |   | |-desktop.png
+ |   | |-desktop.xcf
+ |   | |-dialog.bar.png
+ |   | |-dialog.close.down.tga
+ |   | |-dialog.close.hover.tga
+ |   | |-dialog.close.normal.tga
+ |   | |-dialog.png
+ |   | |-dot.down.png
+ |   | |-dot.hover.png
+ |   | |-dot.normal.png
+ |   | |-dot.xcf
+ |   | |-down.png
+ |   | |-filebrowser.folder.png
+ |   | |-generate.py
+ |   | |-hslider.bar.hover.tga
+ |   | |-hslider.bar.normal.tga
+ |   | |-hslider.left.tga
+ |   | |-hslider.right.tga
+ |   | |-hslider.tga
+ |   | |-idot.normal.png
+ |   | |-input.focus.png
+ |   | |-input.normal.png
+ |   | |-left.png
+ |   | |-list.item.down.png
+ |   | |-list.item.hover.png
+ |   | |-list.item.normal.png
+ |   | |-list.png
+ |   | |-listitem.down.tga
+ |   | |-listitem.hover.tga
+ |   | |-listitem.normal.tga
+ |   | |-menu.down.tga
+ |   | |-menu.hover.tga
+ |   | |-menu.normal.tga
+ |   | |-notes.txt
+ |   | |-out.tga
+ |   | |-progressbar.bar.tga
+ |   | |-progressbar.tga
+ |   | |-radio.off.hover.tga
+ |   | |-radio.off.normal.tga
+ |   | |-radio.on.hover.tga
+ |   | |-radio.on.normal.tga
+ |   | |-radio.png
+ |   | |-rdot.down.png
+ |   | |-rdot.hover.png
+ |   | |-rdot.normal.png
+ |   | |-right.png
+ |   | |-sbox.normal.png
+ |   | |-scroller.slide.bar.hover.tga
+ |   | |-scroller.slide.bar.normal.tga
+ |   | |-scroller.slide.h.tga
+ |   | |-scroller.slide.v.tga
+ |   | |-select.arrow.down.tga
+ |   | |-select.arrow.hover.tga
+ |   | |-select.arrow.normal.tga
+ |   | |-select.arrow.png
+ |   | |-select.option.hover.png
+ |   | |-select.option.normal.png
+ |   | |-select.options.png
+ |   | |-select.selected.down.tga
+ |   | |-select.selected.hover.tga
+ |   | |-select.selected.normal.tga
+ |   | |-slider.bar.hover.tga
+ |   | |-slider.bar.normal.tga
+ |   | |-slider.tga
+ |   | |-style.ini
+ |   | |-tool.down.tga
+ |   | |-tool.hover.tga
+ |   | |-tool.normal.tga
+ |   | |-up.png
+ |   | |-vbox.normal.png
+ |   | |-vdot.down.png
+ |   | |-vdot.hover.png
+ |   | |-vdot.normal.png
+ |   | |-Vera.ttf
+ |   | |-vsbox.normal.png
+ |   | |-vslider.bar.hover.tga
+ |   | |-vslider.bar.normal.tga
+ |   | |-vslider.down.tga
+ |   | |-vslider.tga
+ |   | |-vslider.up.tga
+ |   | |-x.png }
+ |   |
+ |   |-[F]gray {
+ |   | |-box.down.png
+ |   | |-box.normal.png
+ |   | |-button.down.png
+ |   | |-button.normal.png
+ |   | |-checkbox.off.down.png
+ |   | |-checkbox.off.normal.png
+ |   | |-checkbox.on.down.png
+ |   | |-checkbox.on.normal.png
+ |   | |-console.input.focus.png
+ |   | |-console.input.normal.png
+ |   | |-console.png
+ |   | |-desktop.png
+ |   | |-dialog.bar.png
+ |   | |-dialog.close.down.png
+ |   | |-dialog.close.normal.png
+ |   | |-dialog.png
+ |   | |-filebrowser.folder.png
+ |   | |-hslider.left.png
+ |   | |-hslider.right.png
+ |   | |-input.focus.png
+ |   | |-input.normal.png
+ |   | |-list.item.normal.png
+ |   | |-list.png
+ |   | |-menu.down.png
+ |   | |-menu.hover.png
+ |   | |-menu.normal.png
+ |   | |-menu.option.hover.png
+ |   | |-menu.option.normal.png
+ |   | |-radio.off.down.png
+ |   | |-radio.off.normal.png
+ |   | |-radio.on.down.png
+ |   | |-radio.on.normal.png
+ |   | |-select.arrow.down.png
+ |   | |-select.arrow.normal.png
+ |   | |-select.arrow.png
+ |   | |-select.option.normal.png
+ |   | |-select.options.png
+ |   | |-select.selected.normal.png
+ |   | |-slider.bar.normal.png
+ |   | |-slider.png
+ |   | |-style.ini
+ |   | |-tool.down.png
+ |   | |-tool.normal.png
+ |   | |-Vera.ttf
+ |   | |-vslider.down.png
+ |   | |-vslider.up.png }
+ |   |
+ |   |-[F]tools {
+ |     |-config.txt
+ |     |-convertconfig.py
+ |     |-icons48.bkgr.tga
+ |     |-icons48.code.tga
+ |     |-icons48.draw.tga
+ |     |-icons48.eraser.tga
+ |     |-icons48.fill.tga
+ |     |-icons48.line.tga
+ |     |-icons48.pixel.tga
+ |     |-icons48.select.tga
+ |     |-icons48.tile.tga } } }
+ |
+ |-[F]docs {
+ | |-build.py }
+ |
+ |-[F]examples {
+ | |-codes.tga
+ | |-cuzco.png
+ | |-enemy.tga
+ | |-engine1.py
+ | |-fancy.tga
+ | |-gui1.py
+ | |-gui10.py
+ | |-gui11.py
+ | |-gui12.py
+ | |-gui13.py
+ | |-gui14.py
+ | |-gui15.py
+ | |-gui16.py
+ | |-gui17.py
+ | |-gui18.py
+ | |-gui2.py
+ | |-gui3.py
+ | |-gui4.py
+ | |-gui5.py
+ | |-gui6.py
+ | |-gui7.py
+ | |-gui8.py
+ | |-gui9.py
+ | |-hexcodes.tga
+ | |-hexlevel.tga
+ | |-hextiles.tga
+ | |-hexvid1.py
+ | |-html1.py
+ | |-html2.py
+ | |-html3.py
+ | |-html4.py
+ | |-isocodes.tga
+ | |-isolevel.tga
+ | |-isotiles.tga
+ | |-isovid1.py
+ | |-layout1.py
+ | |-level.tga
+ | |-leveledit.ini
+ | |-logo.gif
+ | |-map.tga
+ | |-palette.tga
+ | |-player.tga
+ | |-shot.tga
+ | |-text1.py
+ | |-tileedit.ini
+ | |-tiles.tga
+ | |-tilevid1.py
+ | |-tilevid2.py
+ | |-tilevid3.py
+ | |-tilevid4.py
+ | |-tilevid5.py }
+ |
+ |-[F]pgu {
+ | |-[F]__pycache__ {
+ | | |-__init__.cpython-37.pyc }
+ | |
+ | |-[F]gui {
+ | | |-[F]__pycache__ {
+ | | | |-__init__.cpython-37.pyc
+ | | | |-app.cpython-37.pyc
+ | | | |-area.cpython-37.pyc
+ | | | |-basic.cpython-37.pyc
+ | | | |-button.cpython-37.pyc
+ | | | |-const.cpython-37.pyc
+ | | | |-container.cpython-37.pyc
+ | | | |-deprecated.cpython-37.pyc
+ | | | |-dialog.cpython-37.pyc
+ | | | |-document.cpython-37.pyc
+ | | | |-errors.cpython-37.pyc
+ | | | |-form.cpython-37.pyc
+ | | | |-group.cpython-37.pyc
+ | | | |-input.cpython-37.pyc
+ | | | |-keysym.cpython-37.pyc
+ | | | |-layout.cpython-37.pyc
+ | | | |-menus.cpython-37.pyc
+ | | | |-misc.cpython-37.pyc
+ | | | |-pguglobals.cpython-37.pyc
+ | | | |-select.cpython-37.pyc
+ | | | |-slider.cpython-37.pyc
+ | | | |-style.cpython-37.pyc
+ | | | |-surface.cpython-37.pyc
+ | | | |-table.cpython-37.pyc
+ | | | |-textarea.cpython-37.pyc
+ | | | |-theme.cpython-37.pyc
+ | | | |-widget.cpython-37.pyc }
+ | | |
+ | | |-__init__.py
+ | | |-app.py
+ | | |-area.py
+ | | |-basic.py
+ | | |-button.py
+ | | |-const.py
+ | | |-container.py
+ | | |-deprecated.py
+ | | |-dialog.py
+ | | |-document.py
+ | | |-errors.py
+ | | |-form.py
+ | | |-group.py
+ | | |-input.py
+ | | |-keysym.py
+ | | |-layout.py
+ | | |-menus.py
+ | | |-misc.py
+ | | |-pguglobals.py
+ | | |-select.py
+ | | |-slider.py
+ | | |-style.py
+ | | |-surface.py
+ | | |-table.py
+ | | |-textarea.py
+ | | |-theme.py
+ | | |-widget.py }
+ | |
+ | |-__init__.py
+ | |-algo.py
+ | |-ani.py
+ | |-engine.py
+ | |-fonts.py
+ | |-hexvid.py
+ | |-high.py
+ | |-html.py
+ | |-isovid.py
+ | |-layout.py
+ | |-text.py
+ | |-tilevid.py
+ | |-timer.py
+ | |-vid.py }
+ |
+ |-[F]scripts {
+ | |-leveledit
+ | |-levelfancy
+ | |-tganew
+ | |-tileedit }
+ |
+ |-CHANGES.txt
+ |-LICENSE.txt
+ |-MANIFEST.in
+ |-pgu.code.exvim
+ |-PKG-INFO
+ |-README.md
+ |-setup.py }
+
+
