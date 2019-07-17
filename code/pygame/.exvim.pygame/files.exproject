@@ -1,0 +1,14 @@
+" Press <F1> for help
+
+-[F]pygame {
+ |-[F]framework {
+ | |-[F]core {
+ | | |-__init__.py
+ | | |-log.py }
+ | |
+ | |-main.py }
+ |
+ |-0_main.py
+ |-pygame.exvim }
+
+
