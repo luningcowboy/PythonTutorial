@@ -28,25 +28,27 @@ class Car():
             if event.key == pygame.K_RIGHT or event.key == pygame.K_LEFT:
                 self._xChange = 0
 car = Car(gameDisplay)
-crashed = False
 
 def render():
     gameDisplay.fill(white)
     car.render()
     pygame.display.update()
 def eventHandler():
+    crashed = False
     for event in pygame.event.get():
+        car.onEvent(event)
         if event.type == pygame.QUIT:
             crashed = True
-        car.onEvent(event)
+    return crashed
 def logic():
     car.update()
 def loop():
+    crashed = False
     while not crashed:
         clock.tick(60)
         logic()
         render()
-        eventHandler()
+        crashed = eventHandler()
     pygame.quit()
     quit()
 
