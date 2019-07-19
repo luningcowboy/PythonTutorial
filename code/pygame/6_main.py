@@ -8,25 +8,46 @@ pygame.display.set_caption("Pygame Test")
 white = (255, 255, 255)
 clock = pygame.time.Clock()
 class Car():
-    def __init__(self, display, imgPath):
+    def __init__(self, display):
         self._carImg = pygame.image.load('ball.png')
         self._display = display
         self._x = 0
         self._y = 0
+        self._xChange = 0
     def update(self):
-        pass
+        self._x += self._xChange
     def render(self):
         self._display.blit(self._carImg, (self._x, self._y))
     def onEvent(self, event):
-        pass
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_LEFT:
+                self._xChange = -5
+            if event.key == pygame.K_RIGHT:
+                self._xChange = 5
+        if event.type == pygame.KEYUP:
+            if event.key == pygame.K_RIGHT or event.key == pygame.K_LEFT:
+                self._xChange = 0
+car = Car(gameDisplay)
+crashed = False
 
 def render():
-    pass
+    gameDisplay.fill(white)
+    car.render()
+    pygame.display.update()
 def eventHandler():
-    pass
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            crashed = True
+        car.onEvent(event)
 def logic():
-    pass
+    car.update()
 def loop():
-    logic()
-    render()
-    eventHandler()
+    while not crashed:
+        clock.tick(60)
+        logic()
+        render()
+        eventHandler()
+    pygame.quit()
+    quit()
+
+loop()
