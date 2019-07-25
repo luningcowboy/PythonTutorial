@@ -1,16 +1,18 @@
 import pygame
+
 from core import log
+from const import *
 
 from game import Game
 print(Game)
 class App:
     def __init__(self):
-        self._width = 480
-        self._height = 320
-        self._bgColor = (255, 255, 255)
-        self._appName = 'GameFramework'
-        self._FPS = 60
         self._TAG = 'App'
+        self._width = WIDTH
+        self._height = HEIGHT
+        self._bgColor = (255, 255, 255)
+        self._appName = TITLE
+        self._FPS = 60
     def init(self):
         log.debug(self._TAG, 'init')
         pygame.init()
