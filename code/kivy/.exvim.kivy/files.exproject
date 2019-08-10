@@ -1,0 +1,11 @@
+" Press <F1> for help
+
+-[F]kivy {
+ |-helloworld.py
+ |-uesr.py
+ |-simplebutton.py
+ |-scatter.py
+ |-simplepaint.py
+ |-kivy.exvim }
+
+

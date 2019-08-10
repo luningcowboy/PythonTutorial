@@ -3,6 +3,7 @@ from random import random
 from kivy.app import App
 from kivy.uix.widget import Widget
 from kivy.graphics import Color, Ellipse, Line
+from kivy.uix.button import Button
 
 
 class PaintScreen(Widget):
@@ -19,7 +20,15 @@ class PaintScreen(Widget):
 
 class MyApp(App):
     def build(self):
-        return PaintScreen()
+        parent = Widget()
+        self.painter = PaintScreen()
+        clearBtn = Button(text='clear')
+        clearBtn.bind(on_release=self.clearCanvas)
+        parent.add_widget(self.painter)
+        parent.add_widget(clearBtn)
+        return parent
+    def clearCanvas(self, obj):
+        self.painter.canvas.clear()
 
 if __name__ == '__main__':
     MyApp().run()
