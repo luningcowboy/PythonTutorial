@@ -1,0 +1,11 @@
+" Press <F1> for help
+
+-[F]day_1 {
+ |-[F]templates {
+ | |-index.html }
+ |
+ |-app.py
+ |-config.py
+ |-d1.exvim }
+
+

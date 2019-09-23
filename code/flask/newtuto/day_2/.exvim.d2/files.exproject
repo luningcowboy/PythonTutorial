@@ -1,0 +1,15 @@
+" Press <F1> for help
+
+-[F]day_2 {
+ |-[F]static {
+ | |-[F]images {
+ |   |-test.jpg } }
+ |
+ |-[F]templates {
+ | |-index.html }
+ |
+ |-app.py
+ |-config.py
+ |-d2.exvim }
+
+
