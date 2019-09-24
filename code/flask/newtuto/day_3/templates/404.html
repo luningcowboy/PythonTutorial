@@ -13,6 +13,12 @@
 	</h2>
 	<p>{{movies|length}} Titles</p>
 	<ul class="movie-list">
+		<li>
+			Page not found - 404
+			<span class="float-right">
+				<a href="{{ url_for('index') }}">Go Back</a>
+			</span>
+		</li>
 		{% for movie in movies %}
 		<li>{{movie.title}} - {{movie.year}} </li>
 		{% endfor %}
