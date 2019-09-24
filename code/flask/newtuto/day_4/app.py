@@ -1,6 +1,6 @@
 import os
 import sys
-from flask import Flask
+from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 import click
 
@@ -54,6 +54,16 @@ def forge():
 @app.route('/')
 def hello():
     return "hello"
+
+@app.errorhandler(404)
+def page_not_found(e):
+    user = User.query.filter()
+    return render_template('404.html', user=user), 404
+
+@app.route('/index/')
+def index():
+    movies = Movie.query.all()
+    return render_template('index.html', movies=movies)
 
 if __name__ == "__main__":
     app.run()
