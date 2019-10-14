@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Type</title>
+</head>
+<body>
+<h1>Type:{{type}}</h1>
+	{% for book in books %}
+	<a href="{{book.url}}">{{book.name}} 作者:{{book.author}}<br>
+	{% endfor %}
+</body>
+</html>
