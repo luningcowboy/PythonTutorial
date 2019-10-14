@@ -1,0 +1,36 @@
+" Press <F1> for help
+
+-[F]blog {
+ |-[F]app {
+ | |-[F]db_repository {
+ | | |-[F]versions {
+ | | | |-__init__.py }
+ | | |
+ | | |-__init__.py
+ | | |-manage.py
+ | | |-migrate.cfg
+ | | |-README }
+ | |
+ | |-[F]templates {
+ | | |-base.html
+ | | |-index.html
+ | | |-login.html }
+ | |
+ | |-__init__.py
+ | |-app.db
+ | |-config.py
+ | |-forms.py
+ | |-models.py
+ | |-views.py }
+ |
+ |-blog.exvim
+ |-db_create.py
+ |-db_update.py
+ |-db_downgrade.py
+ |-install.sh
+ |-Pipfile
+ |-Pipfile.lock
+ |-run.py
+ |-run.sh }
+
+

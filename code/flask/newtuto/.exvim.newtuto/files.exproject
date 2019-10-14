@@ -1,0 +1,105 @@
+" Press <F1> for help
+
+-[F]newtuto {
+ |-[F]day_0 {
+ | |-app.py
+ | |-app2.py }
+ |
+ |-[F]day_1 {
+ | |-[F]templates {
+ | | |-index.html }
+ | |
+ | |-app.py
+ | |-config.py
+ | |-d1.exvim }
+ |
+ |-[F]day_2 {
+ | |-[F]static {
+ | | |-[F]images {
+ | | | |-test.jpg }
+ | | |
+ | | |-style.css }
+ | |
+ | |-[F]templates {
+ | | |-index.html }
+ | |
+ | |-app.py
+ | |-config.py
+ | |-d2.exvim }
+ |
+ |-[F]day_3 {
+ | |-[F]static {
+ | | |-[F]images {
+ | | | |-test.jpg }
+ | | |
+ | | |-style.css }
+ | |
+ | |-[F]templates {
+ | | |-404.html
+ | | |-index.html }
+ | |
+ | |-app.py
+ | |-config.py }
+ |
+ |-[F]day_4 {
+ | |-[F]static {
+ | | |-[F]images {
+ | | | |-test.jpg }
+ | | |
+ | | |-style.css }
+ | |
+ | |-[F]templates {
+ | | |-404.html
+ | | |-index.html }
+ | |
+ | |-add_db_data.py
+ | |-app.py
+ | |-config.py
+ | |-create_db.py
+ | |-data.db
+ | |-select_db.py }
+ |
+ |-[F]day_5 {
+ | |-[F]static {
+ | | |-[F]images {
+ | | | |-test.jpg }
+ | | |
+ | | |-style.css }
+ | |
+ | |-[F]templates {
+ | | |-404.html
+ | | |-index.html }
+ | |
+ | |-add_db_data.py
+ | |-app.py
+ | |-config.py
+ | |-create_db.py
+ | |-data.db
+ | |-select_db.py }
+ |
+ |-[F]day_6 {
+ | |-[F]static {
+ | | |-[F]images {
+ | | | |-test.jpg }
+ | | |
+ | | |-style.css }
+ | |
+ | |-[F]templates {
+ | | |-bash.html
+ | | |-404.html
+ | | |-index.html
+ | | |-login.html }
+ | |
+ | |-add_db_data.py
+ | |-app.py
+ | |-config.py
+ | |-create_db.py
+ | |-data.db
+ | |-select_db.py }
+ |
+ |-index.md
+ |-newtuto.exvim
+ |-Pipfile
+ |-Pipfile.lock }
+
+
