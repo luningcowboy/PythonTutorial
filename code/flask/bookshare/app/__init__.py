@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, url_for
 from flask_sqlalchemy import SQLAlchemy
 import click
 app = Flask(__name__)
@@ -13,4 +13,3 @@ def initDB(drop):
         db.drop_all()
     db.create_all()
     click.echo('Initialized database.')
-
