@@ -14,8 +14,8 @@ types = [
 @app.route("/")
 @app.route("/index/")
 def index():
-    for type in types:
-        type['url'] = url_for(type['url'], type=type['tag'])
+    for t in types:
+        t['url'] = url_for('type', type=t['tag'])
     return render_template('index.html',types=types)
 
 @app.route("/type/<type>")
