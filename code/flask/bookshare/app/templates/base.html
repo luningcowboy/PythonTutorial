@@ -10,18 +10,24 @@
   <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+<div class="container">
 {% block crumb%}
+<div class="navbar navbar-fixed-top">
 <ol class="breadcrumb">
 	<li class="breadcrumb-item active"><a href="{{url_for('index')}}">HOME</a></li>
 	{% for type in types%}
 	<li class="breadcrumb-item active"><a href="{{type.url}}">{{type.name}}</a></li>
 	{% endfor %}
 </ol>
+</div>
 {% endblock %}
 {% block content %}
 {% endblock %}
 {% block script%}
 {% endblock %}
-
+<footer>
+	<p>&copy; Company 2012</p>
+</footer>
+</div>
 </body>
 </html>
