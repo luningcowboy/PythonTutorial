@@ -12,10 +12,10 @@ types = [
         {'name':'小说','tag':'2'},
         {'name':'小说1','tag':'3'},
         {'name':'小说2','tag':'4'},
-        {'name':'计算机','tag':'1'},
-        {'name':'小说','tag':'2'},
-        {'name':'小说1','tag':'3'},
-        {'name':'小说2','tag':'4'}]
+        {'name':'计算机','tag':'5'},
+        {'name':'小说','tag':'6'},
+        {'name':'小说1','tag':'7'},
+        {'name':'小说2','tag':'8'}]
 def getTypes():
     ret = []
     for t in types:
