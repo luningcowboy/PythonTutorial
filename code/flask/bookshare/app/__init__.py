@@ -41,3 +41,9 @@ def addBook(config):
                 download=book['download'])
         db.session.add(bookData)
         db.session.commit()
+
+@app.cli.command()
+def listAllBooks():
+    books = db.session.query(models.Book)
+    for book in books:
+        print(book.name, book.author, book.booktype)

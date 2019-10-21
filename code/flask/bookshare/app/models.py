@@ -9,4 +9,8 @@ class Book(db.Model):
     pic = db.Column(db.String)
     def __repr__(self):
         return '<Book %r>'%(self.name)
+    def getContents(self):
+        return self.contents.split('\n')
+    def getDownloads(self):
+        return self.downloads.split(',')
 
