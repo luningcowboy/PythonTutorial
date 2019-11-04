@@ -1,0 +1,36 @@
+" Press <F1> for help
+
+-[F]bookshare {
+ |-[F]app {
+ | |-[F]static {
+ | | |-[F]libs {
+ | | | |-bootstrap.min.js
+ | | | |-jquery.min.js
+ | | | |-popper.min.js }
+ | | |
+ | | |-[F]styles {
+ | |   |-bootstrap.min.css } }
+ | |
+ | |-[F]templates {
+ | | |-base.html
+ | | |-base2.html
+ | | |-base_editor.html
+ | | |-book_desc.html
+ | | |-index.html
+ | | |-type.html }
+ | |
+ | |-__init__.py
+ | |-__init__.pyc
+ | |-book.json
+ | |-app.db
+ | |-config.py
+ | |-models.py
+ | |-views.py }
+ |
+ |-bookshare.exvim
+ |-db_addbook.py
+ |-Pipfile
+ |-Pipfile.lock
+ |-README.md }
+
+

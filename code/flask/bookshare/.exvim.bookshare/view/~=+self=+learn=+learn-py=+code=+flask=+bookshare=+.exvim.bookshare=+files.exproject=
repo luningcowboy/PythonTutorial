@@ -122,8 +122,8 @@ setlocal textwidth=0
 setlocal thesaurus=
 setlocal noundofile
 setlocal undolevels=-123456
-setlocal winfixheight
-setlocal winfixwidth
+setlocal nowinfixheight
+setlocal nowinfixwidth
 setlocal nowrap
 setlocal wrapmargin=0
 3
@@ -134,12 +134,14 @@ normal! zo
 normal! zo
 5
 normal! zc
-let s:l = 19 - ((18 * winheight(0) + 16) / 32)
+14
+normal! zc
+let s:l = 22 - ((21 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-19
-normal! 015|
+22
+normal! 0
 let &so = s:so_save | let &siso = s:siso_save
 nohlsearch
 doautoall SessionLoadPost
