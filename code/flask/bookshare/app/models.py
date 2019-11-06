@@ -14,3 +14,10 @@ class Book(db.Model):
     def getDownloads(self):
         return self.downloads.split(',')
 
+# 根据book_id获取BookInfo
+def getBookInfoById(book_id):
+    pass
+# 根据book_type获取同类图书
+def getBooksByType(book_type):
+    pass
+

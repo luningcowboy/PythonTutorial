@@ -34,8 +34,10 @@ def getBooks():
 def index():
     return render_template('index.html',types=getTypes(),books=getBooks())
 
-@app.route("/type/<type>")
-def type(type):
+@app.route("/type/<type>/<page_id>")
+def type(type, page_id):
+    if not page_id:
+        page_id = 0
     tmpBooks = getBooks()
     return render_template('type.html', type=type,books=books,types=getTypes())
 
