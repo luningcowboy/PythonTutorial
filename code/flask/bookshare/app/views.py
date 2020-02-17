@@ -19,6 +19,7 @@ types = [
 def getTypes():
     ret = []
     for t in types:
+        print('getTypes', t)
         t['url'] = url_for('type', type=t['tag'])
         ret.append(t)
     return ret
@@ -34,10 +35,8 @@ def getBooks():
 def index():
     return render_template('index.html',types=getTypes(),books=getBooks())
 
-@app.route("/type/<type>/<page_id>")
-def type(type, page_id):
-    if not page_id:
-        page_id = 0
+@app.route("/type/<type>")
+def type(type):
     tmpBooks = getBooks()
     return render_template('type.html', type=type,books=books,types=getTypes())
 

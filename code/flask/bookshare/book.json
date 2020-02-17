@@ -1,0 +1,22 @@
+{
+    "books": [
+        {
+            "name": "book1",
+            "author": "author1",
+            "pic": "wwww.baidu.com",
+            "desc": "This is description",
+            "contents": "\u63cf\n\u8ff0\n\u6587\n\u672c",
+            "type": "type",
+            "download": "www.baidu.com,www.baidu.com"
+        },
+        {
+            "name": "book2",
+            "author": "author2",
+            "pic": "wwww.baidu.com",
+            "desc": "This is description",
+            "contents": "\u63cf\n\u8ff0\n\u6587\n\u672c",
+            "type": "type",
+            "download": "www.baidu.com,www.baidu.com"
+        }
+    ]
+}
