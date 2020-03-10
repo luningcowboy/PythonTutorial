@@ -161,8 +161,193 @@ def reverseWords(input):
     return output
 print(reverseWords('I like runoob'))
 ```
+18. Tuple(元组)
+元组与列表类似，不同之处在于元组的元素不能修改，元组写在`()`里。
+```python
+tuple = ('abcd', 786, 2.23, 'runoob', 70.2)
+tinytuple = (123, 'runoob')
 
+print(tuple)
+print(tuple[0])
+print(tuple[1:3])
+print(tuple[2:])
+print(tuple * 2)
+print(tuple + tinytuple)
+```
+**注意:**
+- 与字符串一样，元组的元素不能修改
+- 元组也可以被索引和切片，方法一样
+- 注意构造包行0/1个元素的元组的特殊语法规则
+- 元组也可通过+和*进行拼接操作
 
+19. Set(集合)
+是由一个或数个形态各异的大小整体组成的，构成集合的食物或对象称为元素或是成员。
+```python
+student = {'Tom', 'Jim', 'Mary', 'Tom', 'Jack', 'Rose'}
+print(student)
+if 'Rose' in student:
+    print('Roese 在集合中')
+else:
+    print('Rose 不在集合中')
+a = set('abcdefghijklmn')
+b = set('abacdefad')
+
+print(a)
+print(a - b) # a 和 b 的差集
+print(a | b) # 并集
+print(a & b) # 交集
+print(a ^ b) # 不同时存在的元素
+```
+
+20. Dictionary(字典)
+```python
+dict = {}
+dict['one'] = '1 - 菜鸟教程'
+dict[2] = '2 - 菜鸟工具'
+
+tinydict = {'name': 'runoob', 'code': 1, 'site': 'www.runoob.com'}
+print(dict['one'])
+print(dict[2])
+print(dict.keys())
+print(dict.values())
+print(tinydict)
+print(tinydict.keys())
+print(tinydict.values())
+```
+
+21. 数据类型转换
+
+`int(x, base=10)` 用于将一个字符串或数字转换为整型
+- x: 字符串或数字
+- base: 进制数，默认10进制
+```python
+print(int())
+print(int(3))
+print(int(3.6))
+print(int('12', 16))
+print(int('0xa', 16))
+print(int('10', 8))
+```
+`float([x])` 将整数或者字符串转换为浮点数
+- x: 整数或字符串
+```python
+print(float(1))
+print(float())
+print(float('123'))
+print(float(-123.4))
+```
+`complex([real[,imag]])`
+- real: int, long, float或字符串
+- imag: int, long, float
+返回一个复数
+```python
+print(complex(1, 2))
+print(complex(1))
+print(complex('1'))
+print(complex("1+2j"))# 不能加空格
+```
+`str(object='')`将对象转换为字符串
+- object: 对象
+```python
+s = 'RUNOOB'
+print(str(s))
+dict = {'runoob': 'runoob.com', 'google': 'google.com'}
+print(str(dict))
+```
+`repr(object)`将对象转换为供解释器读取的形式.
+```python
+s = 'RUNOOB'
+dict = {'runoob': 'runoob.com', 'google': 'google.com'}
+print(repr(s))
+print(repr(dict))
+```
+`eval[expression[,globals[, locals]]]`
+- expression: 表达式
+- globals: 变量作用域，全局命名空间，如果被提供，则必须是一个字典对象
+- locals: 变量作用域，局部命名空间，如果被提供，可以是任何映射对象
+```python
+x = 7
+print(eval('3*x'))
+print(eval('pow(2,2)'))
+print(eval('2 + 2'))
+n = 81
+print(eval('n + 4'))
+```
+`tuple(iterable)` 将可迭代系列(如:List)转换为元组
+- iterable: 需要转换为元组的可迭代序列
+```python
+list1 = ['Google', 'Taobao', 'Baidu']
+tuple1 = tuple(list1)
+print(tuple1)
+```
+`list(seq)` 用于将元组或字符串转换为列表。
+```python
+aTuple = (123, 'Google', 'Baidu', 'Taobao')
+list1 = list(aTuple)
+print(list1)
+s = 'abcdeft'
+list2 = list(s)
+print(list2)
+```
+`set([iterable])`创建一个无序不重复元素集，可进行关系测试，删除重复数据，还可以计算交集，差集，并集。
+- iterable: 可迭代对象
+```python
+x = set('runoob')
+y = set('google')
+print((x, y)) # 重复的元素被删除
+print(x & y) # 交集
+print(x | y) # 并集
+print(x - y) # 差集
+```
+`dict()` 用于创建一个字典
+- `dict(**kwarg)`
+- `dict(mapping, **kwarg)`
+- `dict(iterable, **kwarg)`
+- `kwarg`: 关键字
+- `mapping`: 元素的容器
+- `iterable`: 可迭代对象
+```python
+print(dict())
+print(dict(a = 'a', b= 'c', c = 1, d = 2))
+print(dict(zip(['one', 'two', 'three'], [1, 2, 3])))
+print(dict([('one', 1), ('two', 2), ('three', 3)]))
+```
+`frozenset([iterable])`返回一个冰冻集合，不能添加或删除任何元素。
+- iterable: 可迭代对象，比如:列表， 字典， 元组等. 
+```python
+a = frozenset(range(10))
+print(a)
+b = frozenset('runoob')
+print(b)
+```
+`chr()`用范围在rang(256)内(就是0-255)的整数做参数，返回一个对应的字符。
+```python
+print(chr(0x30), chr(0x31), chr(0x61))
+print(chr(48), chr(49), chr(97))
+```
+`ord(c)`获取一个字符的编码
+- c: 字符
+```python
+print(ord('a'))
+print(ord('b'))
+print(ord('c'))
+```
+`hex(x)`用于将10进制整数转换成16进制字符串，以字符串形式表示。
+- x: 10进制整数
+```python
+print(hex(255))
+print(hex(-42))
+print(hex(12))
+print(type(hex(12)))
+```
+
+`oct(x)`将一个整数转换成8进制字符串.
+```python
+print(oct(10))
+print(oct(20))
+print(oct(15))
+print(type(oct(15)))
+```
 
 ## 库相关
 1. 获取python保留字
