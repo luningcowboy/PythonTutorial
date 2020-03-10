@@ -124,3 +124,114 @@ print(oct(10))
 print(oct(20))
 print(oct(15))
 print(type(oct(15)))
+
+a = 21
+b = 10
+c = 0
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a ** b)
+print(a // b)
+
+a = 21
+b = 10
+c = 0
+if (a == b):
+    print('a==b')
+else:
+    print('a!=b')
+
+if (a != b):
+    print('a!=b')
+if (a < b):
+    print('a < b')
+if (a > b):
+    print('a > b')
+a = 5 
+b = 20
+if (a <= b):
+    print('a <= b')
+else:
+    print('a > b')
+if (b >= a):
+    print('b >= a')
+
+a = 21
+b = 10
+c = 0
+c = a + b
+print(c)
+c += a
+print(c)
+c *= a
+print(c)
+c /= a
+print(c)
+c = 2
+c %= a
+print(c)
+c **= a
+print(c)
+c //= a
+print(c)
+
+a = 60
+b = 13
+c = 0
+c = a & b
+print(c)
+c = a | b
+print(c)
+c = a ^ b
+print(c)
+c = ~a
+print(c)
+c = a << 2
+print(c)
+c = a >> 2
+print(c)
+
+a = 10
+b = 20
+if (a and b):
+    print('a and b true')
+else:
+    print('a and b false')
+if (a or b):
+    print('a or b true')
+else:
+    print('a or b false')
+
+a = 0
+if (a and b):
+    print('a and b true')
+else:
+    print('a and b false')
+if (a or b):
+    print('a or b true')
+else:
+    print('a or b false')
+if not (a and b):
+    print('not (a and b) true')
+else:
+    print('not (a and b) false')
+
+a = 10
+b = 20
+list1 = [1, 2, 3, 4, 5]
+print(a in list1)
+print(a not in list1)
+
+a = 20
+b = 20
+if (a is b):
+    print('a is b')
+else:
+    print('a is not b')
+if (id(a) == id(b)):
+    print('相同标识')
+else:
+    print('不同标识')

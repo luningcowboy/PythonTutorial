@@ -349,6 +349,166 @@ print(oct(15))
 print(type(oct(15)))
 ```
 
+21. 算数运算符:
+- `+`加法运算符
+- `-`减法运算符
+- `*`乘法运算符
+- `/`除法运算符
+- `%`取模运算符
+- `**`幂运算符
+- `//`取整运算符
+```python
+a = 21
+b = 10
+c = 0
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a ** b)
+print(a // b)
+```
+22. 比较运算符
+- `==` 判断比较对象是否相等
+- `!=` 不等于
+- `>` 大于
+- `<` 小于
+- `>=` 大于等于
+- `<=` 小于等于
+```python
+a = 21
+b = 10
+c = 0
+if (a == b):
+    print('a==b')
+else:
+    print('a!=b')
+
+if (a != b):
+    print('a!=b')
+if (a < b):
+    print('a < b')
+if (a > b):
+    print('a > b')
+a = 5 
+b = 20
+if (a <= b):
+    print('a <= b')
+else:
+    print('a > b')
+if (b >= a):
+    print('b >= a')
+```
+23. 赋值运算符
+- `=` 简单的赋值运算符
+- `+=` 加法赋值运算符
+- `-=` 减法赋值运算符
+- `*=` 乘法赋值运算符
+- `/=` 除法赋值运算符
+- `%=` 取模赋值运算符
+- `**=` 幂赋值运算符
+- `//=` 取整赋值运算符
+- `:=` 还像运算符,可在表达式内部为变量赋值(3.8提供)
+```python
+a = 21
+b = 10
+c = 0
+c = a + b
+print(c)
+c += a
+print(c)
+c *= a
+print(c)
+c /= a
+print(c)
+c = 2
+c %= a
+print(c)
+c **= a
+print(c)
+c //= a
+print(c)
+```
+24. 位运算符
+- `&` 按位与运算符
+- `|` 按位或运算符
+- `^` 按位异或运算符
+- `<<` 左移动运算符
+- `>>` 右移动预算符
+```python
+a = 60
+b = 13
+c = 0
+c = a & b
+print(c)
+c = a | b
+print(c)
+c = a ^ b
+print(c)
+c = ~a
+print(c)
+c = a << 2
+print(c)
+c = a >> 2
+print(c)
+```
+25. 逻辑运算符
+- and `x and y`
+- or `x or y`
+- not `not x`
+```python
+a = 10
+b = 20
+if (a and b):
+    print('a and b true')
+else:
+    print('a and b false')
+if (a or b):
+    print('a or b true')
+else:
+    print('a or b false')
+
+a = 0
+if (a and b):
+    print('a and b true')
+else:
+    print('a and b false')
+if (a or b):
+    print('a or b true')
+else:
+    print('a or b false')
+if not (a and b):
+    print('not (a and b) true')
+else:
+    print('not (a and b) false')
+```
+26. 成员运算符
+- in 在制定序列中找到指定值返回`True`,否则返回`False`
+- not in 在指定序列中没有找到指定值返回`True`, 否则返回`False`
+```python
+a = 10
+b = 20
+list1 = [1, 2, 3, 4, 5]
+print(a in list1)
+print(a not in list1)
+```
+27. 身份运算符
+- is 判断两个标识符是不是引用字一个对象
+- is not 判断两个标识符是不是引用字不同对象
+```python
+a = 20
+b = 20
+if (a is b):
+    print('a is b')
+else:
+    print('a is not b')
+if (id(a) == id(b)):
+    print('相同标识')
+else:
+    print('不同标识')
+```
+
 ## 库相关
 1. 获取python保留字
 ```python
