@@ -509,6 +509,107 @@ else:
     print('不同标识')
 ```
 
+28. Number(数字)
+数字不允许改变，如果修改数字数据类型的值，**将重新分配内存空间**。
+创建数字对象
+```python
+var1 = 1
+var2 = 10
+```
+使用`del var1[, var2[,var3[..., varN]]]` 删除数字对象的引用.
+```python
+var1 = 1
+var2 = 10
+print(var1, var2)
+del var1, var2
+print(var1, var2) # 这里会报错:NameError: name 'var1' is not defined
+```
+三种数据类型:
+- `整型(int)`:py3中没有`Long`, 整型没有大小限制，可以当作`Long`使用
+- `浮点型(float)`:由整数和小数组成，也可以使用科学计数法表示
+- `复数(complex)`:由实数和虚数部分组成
+
+29. 数字转换:
+- `int(x)`:将x转换为整数
+- `float(x)`:将x转换为浮点数
+- `complex(x)`:将x转换为复数
+- `complex(x, y)`:将x,y转换到一个复数
+30. 数字函数:
+- `abs(x)` 返回数字的绝对值
+- `ceil`: 返回数字的上入整数`math.ceil(4.1)`返回5,也就是向上取整
+- `cmp(x, y)`: python3已经弃用
+- `exp(x)`: 返回e的x次幂
+- `fabs(x)`:返回数字的绝对值
+- `floor(x)`: 返回数字的下舍整数,即向下取整
+- `log(x)`: `math.log(100, 10)`返回2.0
+- `log10(x)`:返回以10为基数的x的对数
+- `max(x1, x2...)`: 返回给定序列的最大值
+- `min(x1, x2...)`: 返回给定序列的最小值
+- `modef(x)`: 返回x的整数部分与小数部分
+- `pow(x, y)`: x**y运算后的值
+- `round(x[,n])`: 返回x的四舍五入值
+- `sqrt(x)`:返回数字的x平方根
+**注意:**
+`fabs`和`abs`的区别:
+- `abs`是一个内置函数，而`fabs`在`math`模块中
+- `fabs`只适用于`float`和`integer`类型，而`abs`可用于复数
+```python
+print(abs(-40))
+print(abs(-1.02))
+import math
+print(math.fabs(-40))
+print(math.fabs(-1.02))
+print(math.ceil(1.1)) # 2
+print(math.ceil(-1.1)) # -1
+print(math.exp(100))
+print(math.floor(1.8)) # 1
+print(math.floor(-1.8)) # -2
+print(math.log(100, 10)) # 2.0
+print(max(1,2,3,4,5)) # 5
+print(max([1,2,30,4,5])) # 30
+print(min(1, 2, 3, 4, 5)) # 1
+print(min([1,2,30,4,5])) # 1
+print(math.modf(1.21)) # (小数部分，整数部分)
+print(pow(2, 3))
+print(round(1.3), round(1.8))
+print(math.sqrt(100))
+```
+31. 随机函数
+- `choice(seq)`: 从序列元素中随机挑选一个元素
+- `randrange([start,], stop [, step])`:从指定范围按指定基数递增的集合中获取一个随机数,基数默认值为1
+- `random`: 随机生成下一个实数
+- `seed(x)`: 改变随机数生成器的种子`seed`
+- `shuffle(list)`: 洗牌算法
+- `uniform(x, y)`: 随机生成下一个实数,在[x,y]范围内
+```python
+import random
+print(random.choice([1,2,3,4,5]))
+print(random.choice(range(100)))
+print(random.choice('HelloPython'))
+print(random.randrange(2, 10, 2))
+print(random.random())
+random.seed(10)
+print(random.random())
+random.seed(10)
+print(random.random())
+l = [1,2,3,4,5]
+print(l)
+random.shuffle(l)
+print(l)
+random.seed()
+```
+
+32. 三角函数:`sin, cos, tan, asin, acos, atan`
+- `atan2(y, x)`: 给定x,y坐标的反正切值
+- `hypot(x, y)`: 欧几里得范数sqrt(x*x + y*y)
+- `degrees(x)`: 弧度转换为角度
+- `radians(x)`: 角度转换为弧度
+
+33. 数字常量:
+- `pi`
+- `e`: 数字常量e, e即自然常数
+
+
 ## 库相关
 1. 获取python保留字
 ```python
