@@ -549,6 +549,7 @@ print(var1, var2) # 这里会报错:NameError: name 'var1' is not defined
 - `pow(x, y)`: x**y运算后的值
 - `round(x[,n])`: 返回x的四舍五入值
 - `sqrt(x)`:返回数字的x平方根
+
 **注意:**
 `fabs`和`abs`的区别:
 - `abs`是一个内置函数，而`fabs`在`math`模块中
