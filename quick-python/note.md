@@ -48,6 +48,12 @@ total = [1, 2,
 - Python中字符串不能改变
 - Python中没有单独多字符类型，一个字符长度就是1的字符串
 - 字符串截取:`变量[头下标:尾下标:步长]`
+- 字符串反转:
+```python
+str_1 = 'abcd'
+str_2 = str_1[-1::-1]
+print(str_2) # bcda 与list的反转方法一样
+```
 8. 不换行输出, `end=`可以替换输出的结尾.
 `print("x = ", a, end=" ")`
 9. `import`和`from...import`倒入模块
