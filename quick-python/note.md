@@ -53,6 +53,7 @@ total = [1, 2,
 str_1 = 'abcd'
 str_2 = str_1[-1::-1]
 print(str_2) # bcda 与list的反转方法一样
+print(str_1[::-1]) #bcda
 ```
 8. 不换行输出, `end=`可以替换输出的结尾.
 `print("x = ", a, end=" ")`
@@ -78,8 +79,10 @@ print(str_2) # bcda 与list的反转方法一样
 - Tuple(元组)
 - Set(集合)
 - Dictionary(字典)
-不可变数据: Number, String, Tuple
-可变数据: List, Dictionary, Set
+
+类型区分:
++ 不可变数据: Number, String, Tuple
++ 可变数据: List, Dictionary, Set
 Number:
 py3支持int, float, bool, complex(复数), 整型只有int,没有py2中的Long.
 ```python
@@ -163,6 +166,7 @@ print(l3)
 def reverseWords(input):
     inputWords = input.split(" ")
     inputWords = inputWords[-1::-1]
+    #inputWords = inputWords[::-1]
     output = ' '.join(inputWords)
     return output
 print(reverseWords('I like runoob'))
@@ -179,6 +183,8 @@ print(tuple[1:3])
 print(tuple[2:])
 print(tuple * 2)
 print(tuple + tinytuple)
+print(tuple[::-1])
+print(tuple[-1::-1])
 ```
 **注意:**
 - 与字符串一样，元组的元素不能修改
