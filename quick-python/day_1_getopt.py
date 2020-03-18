@@ -7,7 +7,9 @@
 """
 import sys
 import getopt
+
 def usage():
+    """show how to use"""
     info = '''
     help info:
     -h hlep
@@ -18,6 +20,7 @@ def usage():
     print(info)
 
 def main(argv):
+    """main"""
     print('Test getopt')
     #print(getopt.__doc__)
     try:

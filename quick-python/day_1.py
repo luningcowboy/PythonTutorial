@@ -25,7 +25,7 @@ total = 1 + \
     + 3
 print(total)
 
-total = [1, 2, 
+total = [1, 2,
          3, 4,
          5]
 print(total)
