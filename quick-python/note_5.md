@@ -48,7 +48,7 @@ print(f'{x + 1}') # python 3.6 =>2
 - `expandtabs(tabsize=8)` 将字符串string中的tab符号转换为空格，tab默认的空格数为8
 - `find(str, beg=0, end=len(string))` 检测str是否包含在字符串中，如果指定beg和end，就是在这两个范围内检查, 返回值为开始的索引, 否则返回-1
 - `index(str, beg=0, end=len(string))` 跟`find`方法一样，只不过如果str不在字符串中会报一个异常
-- `isalnum()` 如果字符串至少有一个字符，并且所有字符都是字母或者数字则返回True,否则返回False
+- `isalnum()` 如果字符串至少有一个字符，并且所有字符都是字母或数字则返回True,否则返回False
 - `isalpha()` 如果字符串中至少含有一个字符，并且所有的字符都是字母则返回True, 否则返回False
 ```python
 str_1 = 'this is string example about capitalize.'

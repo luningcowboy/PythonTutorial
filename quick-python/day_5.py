@@ -70,7 +70,9 @@ print(str_1.index('is'))
 #print(str_1.index('goo')) # error
 
 str_1 = 'abc1ad'
+print('Test isalnum'.center(30,'*'))
 print(str_1.isalnum()) # True
+print('abc'.isalnum()) # True
 print('!@#$'.isalnum()) # False
 print(''.isalnum()) # False
 print(str_1.isalpha()) # False
