@@ -17,6 +17,7 @@ STR_1 = 'this is a string example'
 print(STR_1.upper()) #THIS IS A STRING EXAMPLE
 ```
 4. `str.zfill(width)` 返回指定长度的字符串，原字符串右对齐，前面填充0。 
+`zero fill`
 ```python
 STR_1 = 'this is a string'
 print(STR_1.zfill(40))#000000000000000000000000this is a string
